@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+
+.cell {
+    border: 1px solid gray;
+    min-width: 1px;
+    min-height: 1px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.changed {
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+    height: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
